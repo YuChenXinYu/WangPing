@@ -1,5 +1,8 @@
-﻿body {
-
+﻿html{
+    width: 100%;
+    height: 100%;
+}
+body {
     background: #ffe;
     font-size: 12px;
     overflow: auto
@@ -75,11 +78,11 @@
 
 #code {
     float: left;
-    width: 550px;
+    width: 520px;
     height: 400px;
     color: #333;
     font-family: "楷体", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
-    font-size: 24px;
+    font-size: 28px;
     margin-top: -180px;
 }
 
@@ -102,7 +105,7 @@
 }
 
 #code .comments {
-    color: #70d94b
+    color: gold;
 }
 
 #content {
